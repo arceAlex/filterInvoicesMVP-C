@@ -1,0 +1,16 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "este es mi primer paquete",
+  "main": "index.js",
+  "dependecies": {
+      "json-server": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch dbmio.json --port $PORT"
+  },
+  "author": "Alex",
+  "license": "ISC"
+}

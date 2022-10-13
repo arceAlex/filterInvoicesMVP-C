@@ -1,0 +1,76 @@
+{
+    "invoices": [
+        {
+            "id": 1,
+            "status": "Pagado",
+            "amount": 25.43,
+            "date": "22/3/2020"
+        },
+        {
+            "id": 2,
+            "status": "Pendiente de pago",
+            "amount": 103.2,
+            "date": "3/7/2021"
+        },
+        {
+            "id": 3,
+            "status": "Plan de pago",
+            "amount": 67.37,
+            "date": "15/2/2021"
+        },
+        {
+            "id": 4,
+            "status": "Rechazado",
+            "amount": 8.59,
+            "date": "8/8/2022"
+        }
+    ],
+    "shop": [
+    {
+      "id": 1,
+      "address": "Calle Juan Martín",
+      "type": "frutería",
+      "nombre": "Lola Castro Frutas",
+      "latitude": 37.880273,
+      "longitude": -4.792098
+    },
+    {
+      "id": 2,
+      "address": "Calle Pepe Cruz",
+      "type": "supermercado",
+      "nombre": "Ultramarinos Lolo Castro",
+      "latitude": 37.862323,
+      "longitude": -4.77812
+    },
+    {
+      "id": 3,
+      "address": "Avenida de la Cruz",
+      "type": "pescadería",
+      "nombre": "Pescados El Boquerón",
+      "latitude": 37.856273,
+      "longitude": -4.776992
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "manzanas",
+      "shopId": 1
+    },
+    {
+      "id": 2,
+      "name": "peras",
+      "shopId": 1
+    },
+    {
+      "id": 3,
+      "name": "escoba",
+      "shopId": 2
+    },
+    {
+      "id": 4,
+      "name": "detergente",
+      "shopId": 2
+    }
+  ]
+}
